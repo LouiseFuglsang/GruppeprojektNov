@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7754f228-d149-49c5-b2e0-0086eb265b1c" name="Default Changelist" comment="" />
+    <list default="true" id="7754f228-d149-49c5-b2e0-0086eb265b1c" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List20/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/libraries/javafx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/libraries/javafx.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/Kap14List21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/Kap14List21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/out/production/Kap14List21/sample/ClockPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/out/production/Kap14List21/sample/ClockPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/out/production/Kap14List21/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/out/production/Kap14List21/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/out/production/Kap14List21/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/out/production/Kap14List21/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/out/production/Kap14List21/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/out/production/Kap14List21/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/src/sample/ClockPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/src/sample/ClockPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kap14List21/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Kap14List20og21/src/sample/sample.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kgbU5oyvcCc1S5rVNv39q2Vk4R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_External_libraries/javafx-sdk-11.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kap14List20og21" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,13 +56,15 @@
     <property name="settings.editor.selected.configurable" value="org.intellij.sdk.settings.AppSettingsConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -52,11 +80,16 @@
       <updated>1606125194281</updated>
       <workItem from="1606125195484" duration="27000" />
       <workItem from="1606316847792" duration="1698000" />
+      <workItem from="1606319557607" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1606316993722">
@@ -67,10 +100,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606317140715" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1606317013587">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1606319825921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606317013587" />
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606319825921" />
+    <state x="561" y="261" key="Github.ShareDialog" timestamp="1606319611929">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606319611929" />
+    <state x="466" y="68" key="Github.UntrackedFilesDialog" timestamp="1606319633623">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606319633623" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1606317019990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
