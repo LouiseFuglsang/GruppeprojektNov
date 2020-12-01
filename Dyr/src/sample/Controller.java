@@ -1,5 +1,9 @@
 package sample;
 
+
+import java.io.File;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -7,6 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+
 
 public class Controller {
 
@@ -23,19 +28,17 @@ public class Controller {
     private ImageView photoSelected;
 
 
+    @FXML
+    private Button soundPortal;
 
- //   @FXML
-//    private Button soundPortal;
+    @FXML
+    private ChoiceBox dropDownMenuSounds;
 
-  //  @FXML
-    //private ChoiceBox dropDownMenuSounds;
+    @FXML
+    private TextField nameOfSound;
 
-//    @FXML
-  //  private TextField nameOfSound;
-
-    //@FXML
-    //private ImageView soundSelected;
-
+    @FXML
+    private ImageView soundSelected;
 
 
     @FXML
@@ -49,48 +52,61 @@ public class Controller {
             nameOfPhoto.setText(filnavn);
             Image image = new Image("fotos/" + filnavn);
             photoSelected.setImage(image);
-        }}
-
-
-//    @FXML
- /*   void ChooseSound(ActionEvent event) {
-        String billede = (String) dropDownMenuSounds.getValue();
-
-        if (!billede.isEmpty() || !billede.isBlank()) {
-            String filnavn = billede + ".jpg";
-            nameOfSound.setText(filnavn);
-            Image image = new Image("sample/sounds/" + filnavn);
-            photoSelected.setImage(image);
         }
-           URL path;
+    }
 
-        switch (billede) {
-            case "Bird":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+
+    @FXML
+    void chooseSound(ActionEvent event) {
+/*
+        String lyde = (String) dropDownMenuSounds.getValue();
+
+        if (!lyde.isEmpty() || !lyde.isBlank()) {
+            String filnavn = lyde + ".mp3";
+            nameOfSound.setText(filnavn);
+            Media mediaPlayer = new Media("lyde/" + filnavn);
+            mediaPlayer.play();
+        }
+*/
+
+
+        String source = new File("src/lyde/hest.mp3").toURI().toString();
+        Media media = null;
+        media = new Media(source);
+        MediaPlayer mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+
+
+//           URL path;
+
+/*
+        switch (lyde) {
+            case "bird":
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
             case "Cat":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
             case "Dog":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
             case "Elephant":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
-            case "Horse":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+            case "hest":
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
             case "Monkey":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
             case "Pig":
-                path = getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
+                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
                 break;
 
             default:
                 System.out.println("Vælg en dyrelyd");
 
-        }
-        }
-  */      }
+        }*/
+    }
+}
 
