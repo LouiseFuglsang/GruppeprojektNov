@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label alignment="CENTER" prefHeight="50.0" prefWidth="600.0" text="Simple JavaFX application">
          <font>
@@ -18,7 +17,7 @@
       </Label>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Vis tid" textAlignment="CENTER">
+            <Button fx:id="textField1" mnemonicParsing="false" onAction="#showVisTid" prefHeight="44.0" prefWidth="100.0" text="Vis tid" textAlignment="CENTER">
                <HBox.margin>
                   <Insets left="30.0" top="10.0" />
                </HBox.margin>
@@ -26,7 +25,7 @@
                   <Font name="System Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="40.0" layoutY="20.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Hej" textAlignment="CENTER">
+            <Button fx:id="textField2" layoutX="40.0" layoutY="20.0" mnemonicParsing="false" onAction="#showHej" prefHeight="44.0" prefWidth="100.0" text="Hej" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
@@ -34,7 +33,7 @@
                   <Insets left="125.0" right="30.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Terning" textAlignment="CENTER">
+            <Button fx:id="textField3" mnemonicParsing="false" onAction="#showTerning" prefHeight="44.0" prefWidth="100.0" text="Terning" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
