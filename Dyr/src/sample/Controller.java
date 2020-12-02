@@ -2,6 +2,7 @@ package sample;
 
 
 import java.io.File;
+import java.net.URI;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.event.ActionEvent;
@@ -40,12 +41,10 @@ public class Controller {
     @FXML
     private ImageView soundSelected;
 
-
     @FXML
     void choosePhoto(ActionEvent event) {
 
         String fotos = (String) dropDownMenuPhotos.getValue();
-        System.out.println("Viser " + fotos);
 
         if (!fotos.isEmpty() || !fotos.isBlank()) {
             String filnavn = fotos + ".jpg";
@@ -55,58 +54,22 @@ public class Controller {
         }
     }
 
-
     @FXML
     void chooseSound(ActionEvent event) {
-/*
+
+
         String lyde = (String) dropDownMenuSounds.getValue();
 
         if (!lyde.isEmpty() || !lyde.isBlank()) {
             String filnavn = lyde + ".mp3";
             nameOfSound.setText(filnavn);
-            Media mediaPlayer = new Media("lyde/" + filnavn);
+
+            File f = new File("src/lyde/" + filnavn);
+            Media media = new Media(f.toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(media);
             mediaPlayer.play();
         }
-*/
 
-
-        String source = new File("src/lyde/hest.mp3").toURI().toString();
-        Media media = null;
-        media = new Media(source);
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.play();
-
-
-//           URL path;
-
-/*
-        switch (lyde) {
-            case "bird":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "Cat":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "Dog":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "Elephant":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "hest":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "Monkey":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-            case "Pig":
-                getClass().getResource("https://www.youtube.com/watch?v=aReRSVpg298");
-                break;
-
-            default:
-                System.out.println("Vælg en dyrelyd");
-
-        }*/
     }
 }
 
